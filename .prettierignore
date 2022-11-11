@@ -1,0 +1,8 @@
+# testing
+/coverage
+
+# production
+/build
+
+#misc
+package-lock.json
