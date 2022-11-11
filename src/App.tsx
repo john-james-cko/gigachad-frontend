@@ -4,8 +4,6 @@ const App: React.FC = () => {
   return (
     <div>
       <Heading content="Hello" />
-
-
     </div>
   );
 };
