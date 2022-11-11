@@ -41,6 +41,16 @@
   "eslintIgnore": [
     "coverage"
   ],
+  "jest": {
+    "coverageThreshold": {
+      "./src/Components/": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    }
+  },
   "dependencies": {
     "@commitlint/cli": "^17.2.0",
     "@commitlint/config-conventional": "^17.2.0",
