@@ -44,10 +44,10 @@
   ],
   "jest": {
     "collectCoverageFrom": [
-      "./src/Components/**/*.{js,jsx,ts,tsx}"
+      "./src/components/**/*.{js,jsx,ts,tsx}"
     ],
     "coverageThreshold": {
-      "./src/Components/": {
+      "./src/components/": {
         "branches": 100,
         "functions": 100,
         "lines": 100,
