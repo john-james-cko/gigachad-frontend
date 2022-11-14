@@ -1,4 +1,4 @@
-import Heading from "./Components/Heading"
+import Heading from "./comps/Heading"
 
 const App: React.FC = () => {
   return (
