@@ -9,7 +9,8 @@
     "eject": "react-scripts eject",
     "prepare": "husky install",
     "start": "react-scripts start",
-    "test": "react-scripts test"
+    "test": "react-scripts test",
+    "amplify": "amplify"
   },
   "config": {
     "commitizen": {
@@ -55,6 +56,8 @@
     }
   },
   "dependencies": {
+    "@aws-amplify/cli": "^10.4.1",
+    "@aws-amplify/datastore": "^3.14.4",
     "@commitlint/cli": "^17.2.0",
     "@commitlint/config-conventional": "^17.2.0",
     "@testing-library/jest-dom": "^5.16.5",
