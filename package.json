@@ -44,10 +44,10 @@
   ],
   "jest": {
     "collectCoverageFrom": [
-      "./src/comps/**/*.{js,jsx,ts,tsx}"
+      "./src/components/**/*.{js,jsx,ts,tsx}"
     ],
     "coverageThreshold": {
-      "./src/comps/": {
+      "./src/components/": {
         "branches": 100,
         "functions": 100,
         "lines": 100,
@@ -67,6 +67,7 @@
     "@types/node": "^16.18.3",
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.8",
+    "aws-amplify": "^4.3.43",
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^8.0.2",
     "prettier": "^2.7.1",

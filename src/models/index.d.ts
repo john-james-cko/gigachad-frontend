@@ -8,14 +8,12 @@ type UserMetaData = {
 
 type EagerUser = {
   readonly id: string
-  readonly name: string
   readonly createdAt?: string | null
   readonly updatedAt?: string | null
 }
 
 type LazyUser = {
   readonly id: string
-  readonly name: string
   readonly createdAt?: string | null
   readonly updatedAt?: string | null
 }
